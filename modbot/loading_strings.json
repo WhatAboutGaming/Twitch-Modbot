@@ -1,0 +1,3429 @@
+{
+  "rarity_minimum": 0,
+  "rarity_maximum": 65535,
+  "rarity_system_enabled": false,
+  "rarity_observations": "minimum is the floor of the integer to be randomized, maximum is the ceiling of the integer to be randomized, the lower the rarity number of a string, the more commom it is, the higher it gets, the rarer it is.",
+  "loading_strings": [
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Base Game",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Extruding Mesh Terrain",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Balancing Domestic Coefficients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inverting Career Ladder",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Money Supply",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Normalizing Social Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adjusting Emotional Weights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Personality Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inserting Chaos Generator",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Livin' Large",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Concatenating Vertex Nodes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Balancing Domestic Coefficients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inverting Career Ladder",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mapping Influence Attributes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assigning Mimic Propagation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Iterating Chaos Array",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Importing Personality Anchors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inserting Extension Algorithms",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims House Party",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Concatenating Vertex Nodes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Balancing Domestic Coefficients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Re-Inverting Career Ladder",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mapping Influence Attributes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Aggregating Need Agents",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Interpreting Family Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cabalizing NPC Controls",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Maximizing Social Network",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Hot Date",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Renewing Urban Combinatorics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Redefining Family Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Personality Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Population Model",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Homogenizing Interest Anatomy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Establishing Gift Registry",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Randomizing Inhabitant Characteristics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Readjusting Emotional Weights",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Vacation",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Activating Hotel Staff",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Importing Entertainment Talent",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Updating Vacancy Request Hotline",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Downloading Weather Data",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hyperactivating Children",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Still Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Updating Hotel Registry",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Exchange Rate",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Activating Deviance Threshold",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Unleashed",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Adapting Behavioral Model",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reconfiguring Genetic Algorithms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hybridizing Plant Material",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines Again",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unfolding Helix Packet",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Synthesizing Natural Selection",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enabling Lot Commercialization",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recomputing Mammal Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Augmenting Occupational Conduits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Operant Construct",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Superstar",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Generating Schmoozing Algorithm",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Populating Empyreal Entities",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Configuring Studio Operations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Golden Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Composing Melodic Euphony",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spreading Rumors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Polarizing Image Conduits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Fame Indicant",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Strengthening Award Foundations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Abstracting Loading Procedures",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Makin' Magic",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Locating Misplaced Calculations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Eliminating Would-be Chicanery",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Tabulating Spell Effectors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Unreticulated Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recycling Hex Decimals",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Binding Trace Enchantments",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fabricating Imaginary Infrastructure",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Optimizing Baking Temperature",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ensuring Transplanar Synergy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simulating Program Execution",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Complete Collection",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Interpreting Family Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fabricating Imaginary Infrastructure",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recomputing Mammal Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Activating Deviance Threshold",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Composing Melodic Euphony",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Homogenizing Interest Anatomy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Normalizing Social Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compiling Reticulated Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simulating Program Execution",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Base Game",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Chlorinating Car Pools",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Partitioning Social Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Prelaminating Drywall Inventory",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Blurring Reality Lines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating 3-Dimensional Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Captive Simulators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Capacitating Genetic Modifiers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Destabilizing Orbital Payloads",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sequencing Cinematic Specifiers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Branching Family Trees",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Manipulating Modal Memory",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 University",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Pressurizing Fruit Punch Barrel Hydraulics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Testing Underworld Telecommunications",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Priming Mascot Mischief Coefficients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Caffeinating Student Body",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Secret Societies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Securing Online Grades Database",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Graduated Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Requisitioning Alumni Donations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pre-Inking Simoleon Plates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Loading School Spirit Algorithm",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Nightlife",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Shampooing Dirty Rugs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Restocking Sim Inventories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compositing Vampiric Complexions",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Replacing Wheel Bearings",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Re-Re-Re-Re-Re-Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Loading \"Vroom\" Sounds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Turning On Turn-Ons",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing a Tasty Grilled Cheese Sandwich",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Infuriating Furious Bits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Flavorizing Side-Dishes",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Open for Business",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Disgruntling Employees",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Managing Managers' Managers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Configuring Lemony Squeezation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Bacon for Homeward Transportation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulated Splines for Sale: $2000",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mitigating Time-Stream Discontinuities",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Loading \"First Batch\" Metrics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Forth-Rallying Protocol",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Neutralizing Shuriken Oxidization",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Roof = Roof(1/3*pi*r^2*h)",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Pets",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Rasterizing Rodent Residences",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Limiting Litterbox Loads",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scheduling Copious Catnaps",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Canine Customization",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dumbing Down Doofuses",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scolding Splines for Reticulating",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Distilling Doggie Dynamics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Atomizing Atomic Particles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decrementing Feline Life-Count",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dampening Stray Generators",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Seasons",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Gleefully Stacking Inventories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "De-chlorophyllizing Leaves",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicting Puddle Prevalence",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Snowball Trajectories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unexpectedly Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assessing Loam Particle Sizes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Timing Temperature Transference",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Individualizing Snowflakes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hydrating Harvestables",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stocking Ponds",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Bon Voyage",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Readying Relaxation Receptors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicting Pagoda Peaks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Originating Ocean Currents",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Faceting Precious Gems",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Vacation Days",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spawning Sights to See",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Ninja Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Analyzing Axe Trajectories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Training Tour Guides",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Dastardly Schemes",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Free Time",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Factoring Hobby Enthusiasm",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Lifetime Aspirations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicating Predestined Paths",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Populating Yards with Bugs and Birds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Writing Scrolling Startup String Text",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines in the Zone",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recruiting Snooty Food Judges",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Breaking Down Restorable Cars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Threading Sewing Needles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Lacing Football Cleats",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Apartment Life",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Going Apartment Hunting",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Determining Rent Guidelines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing for Pops and Locks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Compatible Roommates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Twisting Spiral Staircases",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Telling Splines to Reticulate More Quietly",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making a Little Bit of Magic",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Rasterizing Reputation Algorithms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cluttering Closets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Perfecting Playground Pieces",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Family Fun Stuff",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Submerging Bedroom Furniture",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Desalinizing Snorkels",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enhancing Crown Reflectivity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Crenellating Crenellations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dragon-proofing Dressers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Underwater Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Intensifying Hawaiian Prints",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Navigating Stormy Waters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pre-fluffing Pillows",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Factoring Fairy Frolicking Frequencies",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Glamour Life Simulator",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Modeling Marquetry",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Eschewing Everyday Aesthetics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cultivating Quality and Class",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Proscribing Plebeian Palates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Falsifying Faux Finishes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Invigorating Dull Habitations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Abolishing Pedestrian Posturing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Buffing Splines for Reticulation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Appointing Appealing Appurtenances",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simulating Sparkling Surfaces",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Celebration",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Reverse-Engineering Party Scores",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unfolding Foldy Chairs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Rehearsing Dinner",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Crash-Proofing Parties",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Grooming Grooms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mingling",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "De-inviting Don Lothario",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Borrowing Something Blue ",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Happy 14th Birthday Reticulated Splines!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Applying Lampshade Headwear",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 H&M Fashion Stuff",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Stocking Clearance Racks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fiercely Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fashioning Late Arrivals",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "De-wrinkling Worry-Free Clothing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Distressing Jeans",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Developing Delicious Designs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Formulating Fitting Rooms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Tailoring Trendy Threads",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Constructing Clothes Hangers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adjusting Acceptable Apparel",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Teen Style Stuff",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Capturing Youthful Exuberance",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Analyzing Adolescent Angst",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Personal Spaces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making a Mess",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Like, Totally Reticulating Splines, Dude",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Gothic Glamour",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Monitoring Moody Minors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sweetening Sixteens",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Teasing Teenage Hair-dos",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building Boring Bedrooms? As If!",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Kitchen and Bath",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Taking Countertops for Granite",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Perfect Plumbing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Baking Bread for Toasters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Igniting Pilot Lights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Putting Down Toilet Seats",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Remodeling Spline Reticulator",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assembling Shower Stalls",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Examining Tiles from All Zooms and Angles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cooling Down Refrigerators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stocking Stylish Sinks",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 IKEA Home Stuff",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Creating Handmade Lampshades",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Many Mini Wrenches",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Supplying Self-Serve Furniture Area",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simmering Swedish Meatballs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building Bedroom Displays",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stress-Testing POÄNG Chairs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Some Spline Reticulating Required",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Upholstering Sofas and Loveseats",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Boxing BILLY Bookcases",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spooling IKEA Awesomeness",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims 2 Mansion & Garden Stuff",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Growing Greener Gardens",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Manic Mansions",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Storing Solar Energy ",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Over-Waxing Banisters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stopping To Smell The Flowers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Extrapolating Empire Eigenvectors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ceiling Fan Rotation = dL/dT",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Increasing Water Plant Population",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Redistributing Resources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines One Last Time",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Stories Life Stories",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Reticulating Story Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Matching Walls and Floors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Partitioning Prose",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Canceling Un-cancelable Actions",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Filling in the Blanks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enforcing Storyline",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Intrigue",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Launching SimSat 9000",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compiling Riley's Wardrobe",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Vincent's Wealth",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Activating Story Arc",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Stories Pet Stories",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Re-Activating Story Arc",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Leveling Playing Fields",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stooping and Scooping",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Pets Look Like Owners",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Owners Look Like Pets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Dog Show Object Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Delineating Mask Dynamics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reinforcing Story Lines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decrementing Alice's Funds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Stephen Loyal",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
+      "loading_strings_pack_name": "The Sims Stories Castaway Stories",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Calculating Native Restlessness",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Transmitting Message Bottles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Clearing Shipping Lanes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Severing Civilization Connections",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Sand Grains",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Bribing The Orangutans",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Wrangling All Wreckage",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicting Weather Unpredictability",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Estimating Volcanic Activity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Amplifying Sun to '11'",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://gist.github.com/erikcox/7e96d031d00d7ecb1a2f https://gist.githubusercontent.com/erikcox/7e96d031d00d7ecb1a2f/raw/0c24948e031798aacf45fd8b7207c45d8e41a373/SimCityLoadingMessages.txt",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427022728/https://gist.github.com/erikcox/7e96d031d00d7ecb1a2f https://web.archive.org/web/20240427023008/https://gist.githubusercontent.com/erikcox/7e96d031d00d7ecb1a2f/raw/0c24948e031798aacf45fd8b7207c45d8e41a373/SimCityLoadingMessages.txt",
+      "loading_strings_pack_name": "SimCity Loading Messages",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Adding Hidden Agendas",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adjusting Bell Curves",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Aesthesizing Industrial Areas",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Aligning Covariance Matrices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Applying Feng Shui Shaders",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Applying Theatre Soda Layer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Asserting Packed Exemplars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Attempting to Lock Back-Buffer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Binding Sapling Root System",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Breeding Fauna",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building Data Trees",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Bureacritizing Bureaucracies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Inverse Probability Matrices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Llama Expectoration Trajectory",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Blue Skies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Charging Ozone Layer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Coalescing Cloud Formations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cohorting Exemplars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Collecting Meteor Particles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compounding Inert Tessellations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compressing Fish Files",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Computing Optimal Bin Packing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Concatenating Sub-Contractors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Containing Existential Buffer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Debarking Ark Ramp",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Debunching Unionized Commercial Services",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Deciding What Message to Display Next",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decomposing Singular Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decrementing Tectonic Plates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Deleting Ferry Routes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Depixelating Inner Mountain Surface Back Faces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Depositing Slush Funds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Destabilizing Economic Indicators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Determining Width of Blast Fronts",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Deunionizing Bulldozers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dicing Models",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Diluting Livestock Nutrition Variables",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Downloading Satellite Terrain Data",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Exposing Flash Variables to Streak System",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Extracting Resources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Factoring Pay Scale",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fixing Election Outcome Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Flood-Filling Ground Water",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Flushing Pipe Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Gathering Particle Sources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Jobs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Gesticulating Mimes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Graphing Whale Migration",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hiding Willio Webnet Mask",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Implementing Impeachment Routine",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Increasing Accuracy of RCI Simulators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Increasing Magmafacation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing My Sim Tracking Mechanism",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Rhinoceros Breeding Timetable",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Robotic Click-Path AI",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inserting Sublimated Messages",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Integrating Curves",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Integrating Illumination Form Factors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Integrating Population Graphs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Iterating Cellular Automata",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Lecturing Errant Subsystems",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mixing Genetic Pool",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Modeling Object Components",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mopping Occupant Leaks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Normalizing Power",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Obfuscating Quigley Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Overconstraining Dirty Industry Calculations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Partitioning City Grid Singularities",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Perturbing Matrices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pixalating Nude Patch",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Polishing Water Highlights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Populating Lot Templates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Sprites for Random Walks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Prioritizing Landmarks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Projecting Law Enforcement Pastry Intake",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Realigning Alternate Time Frames",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reconfiguring User Mental Processes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Relaxing Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Removing Road Network Speed Bumps",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Removing Texture Gradients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Removing Vehicle Avoidance Behavior",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Resolving GUID Conflict",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Retracting Phong Shader",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Retrieving from Back Store",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reverse Engineering Image Consultant",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Routing Neural Network Infanstructure",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scattering Rhino Food Sources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scrubbing Terrain",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Searching for Llamas",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Seeding Architecture Simulation Parameters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sequencing Particles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Setting Advisor Moods",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Setting Inner Deity Indicators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Setting Universal Physical Constants",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sonically Enhancing Occupant-Free Timber",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Speculating Stock Market Indices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Splatting Transforms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stratifying Ground Layers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sub-Sampling Water Data",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Synthesizing Gravity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Synthesizing Wavelets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Time-Compressing Simulator Clock",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unable to Reveal Current Activity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Weathering Buildings",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Zeroing Crime Network",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
+      "loading_strings_pack_link": "https://gist.github.com/CodyBohn/69af752e1548fed245d3295578071da8 https://gist.githubusercontent.com/CodyBohn/69af752e1548fed245d3295578071da8/raw/fb45d3737987cc27efc60d0821f3f8d5f8617932/Maxis%2520Loading%2520Messages.txt",
+      "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427023628/https://gist.github.com/CodyBohn/69af752e1548fed245d3295578071da8 https://web.archive.org/web/20240427023830/https://gist.githubusercontent.com/CodyBohn/69af752e1548fed245d3295578071da8/raw/fb45d3737987cc27efc60d0821f3f8d5f8617932/Maxis%2520Loading%2520Messages.txt",
+      "loading_strings_pack_name": "Maxis Loading Messages",
+      "loading_strings_pack": [
+        {
+          "loading_string": "Abolishing Pedestrian Posturing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Abstracting Loading Procedures",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Activating Deviance Threshold",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Activating Hotel Staff",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Activating Story Arc",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adapting Behavioral Model",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adding Hidden Agendas",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adjusting Acceptable Apparel",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adjusting Bell Curves",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Adjusting Emotional Weights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Anesthetizing Industrial Areas",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Aggregating Need Agents",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Aligning Covariance Matrices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Alphabetizing Books",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Amplifying Sun to '11'",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Analyzing Adolescent Angst",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Analyzing Axe Trajectories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Applying Feng Shui Shaders",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Applying Lampshade Headwear",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Applying Theatre Soda Layer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Appointing Appealing Appurtenances",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ascending Maslow's Hierarchy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assembling Playground",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assembling Shower Stalls",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Asserting Packed Exemplars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assessing Loam Particle Sizes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Assigning Mimic Propagation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Atomizing Atomic Particles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Attempting to Lock Back-Buffer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Augmenting Assets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Augmenting Occupational Conduits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Baking Bread for Toasters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Balancing Domestic Coefficients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Besmirching Reputations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Binding Sapling Root System",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Binding Trace Enchantments",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Blurring Reality Lines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Borrowing Something Blue",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Boxing BILLY Bookcases",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Branching Family Trees",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Breaking Down Restorable Cars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Breeding Fauna",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Bribing The Orangutans",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Buffing Splines for Reticulation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building Bedroom Displays",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building Boring Bedrooms? As If!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building Data Trees",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Building High Ceilings",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Bureacritizing Bureaucracies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Burning Calories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cabalizing NPC Controls",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Caffeinating Student Body",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Exchange Rate",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Inverse Probability Matrices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Lifetime Aspirations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Llama Expectoration Trajectory",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Maximum Velocity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Money Supply",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Native Restlessness",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Snowball Trajectories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calculating Vincent's Wealth",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Blue Skies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Canine Customization",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Fame Indicant",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calibrating Personality Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Calling Psychic Phone Pals",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Canceling Un-cancelable Actions",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Capacitating Genetic Modifiers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Captivating Conspiracy Theorists",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Capturing Youthful Exuberance",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Catalyzing Chemicals",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Catching Cat Burglars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ceiling Fan Rotation = dL/dT",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Charging Ozone Layer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Checkering Flags",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Chlorinating Car Pools",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Clearing Shipping Lanes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cluttering Closets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Coalescing Cloud Formations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cohorting Exemplars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Collecting Meteor Particles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compiling Reticulated Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compiling Riley's Wardrobe",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Composing Melodic Euphony",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compositing Vampiric Complexions",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compounding Inert Tessellations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Compressing Fish Files",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Computing Optimal Bin Packing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Concatenating Sub-Contractors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Concatenating Vertex Nodes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Configuring Lemony Squeezation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Configuring Studio Operations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Constructing Clothes Hangers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Containing Existential Buffer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cooling Down Refrigerators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Crash-Proofing Parties",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Creating Handmade Lampshades",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Crenellating Crenellations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cultivating Quality and Class",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dampening Stray Generators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "De-chlorophyllizing Leaves",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "De-inviting Don Lothario",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "De-wrinkling Worry-Free Clothing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Debarking Ark Ramp",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Debunching Unionized Commercial Services",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Deciding What Message to Display Next",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decomposing Singular Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decrementing Alice's Funds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decrementing Feline Life-Count",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Decrementing Tectonic Plates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Deleting Ferry Routes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Delineating Mask Dynamics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Depixelating Inner Mountain Surface Back Faces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Depositing Slush Funds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Desalinizing Snorkels",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Destabilizing Economic Indicators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Destabilizing Orbital Payloads",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Determining Rent Guidelines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Determining Width of Blast Fronts",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Deunionizing Bulldozers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Developing Delicious Designs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dicing Models",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Diluting Livestock Nutrition Variables",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Disgruntling Employees",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Distilling Doggie Dynamics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Distressing Jeans",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Downloading Satellite Terrain Data",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Downloading Weather Data",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dragon-proofing Dressers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dumbing Down Doofuses",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Eliminating Would-be Chicanery",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enabling Lot Commercialization",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enforcing Storyline",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enhancing Crown Reflectivity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Enlisting Elite Forces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ensuring Transplanar Synergy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Eschewing Everyday Aesthetics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Establishing Gift Registry",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Estimating Volcanic Activity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Examining Tiles from All Zooms and Angles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Exposing Flash Variables to Streak System",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Extracting Resources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Extrapolating Empire Eigenvectors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Extruding Mesh Terrain",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fabricating Imaginary Infrastructure",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Faceting Precious Gems",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Factoring Fairy Frolicking Frequencies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Factoring Hobby Enthusiasm",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Factoring Pay Scale",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Falsifying Faux Finishes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fashioning Late Arrivals",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fiercely Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Filling in the Blanks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fixing Election Outcome Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Flavorizing Side-Dishes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Flood-Filling Ground Water",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Flushing Pipe Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Formulating Fitting Rooms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Gathering Particle Sources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Compatible Roommates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Gothic Glamour",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Intrigue",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Jobs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Population Model",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Sand Grains",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Generating Schmoozing Algorithm",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Gesticulating Mimes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Gleefully Stacking Inventories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Going Apartment Hunting",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Graduating Scholars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Graphing Whale Migration",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Grooming Grooms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Growing Greener Gardens",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Happy 14th Birthday Reticulated Splines!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hiding Garden Gnomes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hiding Willio Webnet Mask",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Homogenizing Interest Anatomy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hybridizing Plant Material",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hydrating Harvestables",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hyperactivating Children",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Igniting Pilot Lights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Implementing Impeachment Routine",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Importing Entertainment Talent",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Importing Personality Anchors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Increasing Accuracy of RCI Simulators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Increasing Magmafacation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Increasing Water Plant Population",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Individualizing Snowflakes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Infuriating Furious Bits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Dastardly Schemes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Forth-Rallying Protocol",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing My Sim Tracking Mechanism",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Operant Construct",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Rhinoceros Breeding Timetable",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Robotic Click-Path AI",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Secret Societies",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inserting Chaos Generator",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inserting Extension Algorithms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inserting Sublimated Messages",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Integrating Curves",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Integrating Illumination Form Factors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Integrating Population Graphs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Intensifying Hawaiian Prints",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Interpreting Family Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inventing Internets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Inverting Career Ladder",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Invigorating Dull Habitations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Iterating Cellular Automata",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Iterating Chaos Array",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Lacing Football Cleats",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Launching SimSat 9000",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Lecturing Errant Subsystems",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Leveling Playing Fields",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Like, Totally Reticulating Splines, Dude",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Limiting Litterbox Loads",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Loading \"First Batch\" Metrics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Loading \"Vroom\" Sounds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Loading School Spirit Algorithm",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Locating Misplaced Calculations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making a Little Bit of Magic",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making a Mess",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Manic Mansions",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Many Mini Wrenches",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Owners Look Like Pets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Pets Look Like Owners",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Making Stephen Loyal",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Managing Managers' Managers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Manipulating Modal Memory",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mapping Influence Attributes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mapping The Llama Genome",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Matching Walls and Floors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Maximizing Social Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Meditating Modifiers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mingling",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mitigating Time-Stream Discontinuities",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mixing Genetic Pool",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Modeling Marquetry",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Modeling Object Components",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Monitoring Moody Minors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Mopping Occupant Leaks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Navigating Stormy Waters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Neutralizing Shuriken Oxidization",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Normalizing Power",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Normalizing Social Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Obfuscating Quigley Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Optimizing Baking Temperature",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Originating Ocean Currents",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Over-Waxing Banisters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Overconstraining Dirty Industry Calculations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Partitioning City Grid Singularities",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Partitioning Prose",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Partitioning Social Network",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Perfecting Playground Pieces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Performing A Sound Check",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Perturbing Matrices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pixalating Nude Patch",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Polarizing Image Conduits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Polishing Water Highlights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Populating Empyreal Entities",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Populating Lot Templates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Populating Yards with Bugs and Birds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pre-fluffing Pillows",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pre-Inking Simoleon Plates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicating Predestined Paths",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicting Pagoda Peaks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicting Puddle Prevalence",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Predicting Weather Unpredictability",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Prelaminating Drywall Inventory",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing a Tasty Grilled Cheese Sandwich",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Bacon for Homeward Transportation",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Captive Simulators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing for Pops and Locks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Perfect Plumbing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Personal Spaces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Sprites for Random Walks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Preparing Vacation Days",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Pressurizing Fruit Punch Barrel Hydraulics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Priming Mascot Mischief Coefficients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Prioritizing Landmarks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Projecting Law Enforcement Pastry Intake",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Proscribing Plebeian Palates",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Putting Down Toilet Seats",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Randomizing Inhabitant Characteristics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Rasterizing Reputation Algorithms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Rasterizing Rodent Residences",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Re-Activating Story Arc",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Re-Inverting Career Ladder",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Re-Re-Re-Re-Re-Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Readjusting Emotional Weights",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Readying Relaxation Receptors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Realigning Alternate Time Frames",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recomputing Mammal Matrix",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reconfiguring Genetic Algorithms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reconfiguring User Mental Processes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recruiting Snooty Food Judges",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Recycling Hex Decimals",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Redefining Family Values",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Redistributing Resources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Rehearsing Dinner",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reinforcing Story Lines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Relaxing Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Remodeling Spline Reticulator",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Removing Road Network Speed Bumps",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Removing Texture Gradients",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Removing Vehicle Avoidance Behavior",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Renewing Urban Combinatorics",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Replacing Wheel Bearings",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Requisitioning Alumni Donations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Resolving GUID Conflict",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Restocking Sim Inventories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulated Splines for Sale: $2000",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating 3-Dimensional Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating 4-D Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Dog Show Object Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Golden Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Graduated Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Ninja Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines Again",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines in the Zone",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Splines One Last Time",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Story Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Underwater Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulating Unreticulated Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reticulator of Splines Reticulating",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Retracting Phong Shader",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Retrieving from Back Store",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reverse Engineering Image Consultant",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reverse-Engineering Party Scores",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Rezoning Residual Residents",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Roof = Roof(1/3*pi*r^2*h)",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Routing Neural Network Infanstructure",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scattering Rhino Food Sources",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scheduling Copious Catnaps",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scolding Splines for Reticulating",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Scrubbing Terrain",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Searching for Llamas",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Securing Online Grades Database",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Seeding Architecture Simulation Parameters",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sequencing Cinematic Specifiers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sequencing Particles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Setting Advisor Moods",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Setting Inner Deity Indicators",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Setting Universal Physical Constants",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Severing Civilization Connections",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Shampooing Dirty Rugs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simmering Swedish Meatballs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simulating Program Execution",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Simulating Sparkling Surfaces",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Some Spline Reticulating Required",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sonically Enhancing Occupant-Free Timber",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Space Ponies: Achieved",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sparking Imaginations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spawning Sights to See",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Speculating Stock Market Indices",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spinning New Tunes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Splatting Transforms",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spooling IKEA Awesomeness",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Spreading Rumors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Still Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stocking Clearance Racks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stocking Ponds",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stocking Stylish Sinks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stooping and Scooping",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stopping To Smell The Flowers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Storing Solar Energy",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stratifying Ground Layers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Strengthening Award Foundations",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stress-Testing POÄNG Chairs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Stuffing Genies Into Bottles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sub-Sampling Water Data",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Submerging Bedroom Furniture",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Supplying Self-Serve Furniture Area",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Sweetening Sixteens",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Synthesizing Gravity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Synthesizing Natural Selection",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Synthesizing Wavelets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Tabulating Spell Effectors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Tabulating Traits",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Tailoring Trendy Threads",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Taking Countertops for Granite",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Teasing Teenage Hair-dos",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Telling Splines to Reticulate More Quietly",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Testing Test Subjects",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Testing Underworld Telecommunications",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Texture-Compositing Teddy Bears",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Threading Fabric Compositors",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Threading Sewing Needles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Time-Compressing Simulator Clock",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Timing Temperature Transference",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Training Team Mascots",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Training Tour Guides",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Transmitting Message Bottles",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Turning On Turn-Ons",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Twisting Spiral Staircases",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unable to Reveal Current Activity",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unexpectedly Reticulating Splines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unfolding Foldy Chairs",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unfolding Helix Packet",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Unloading Loading Screens",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Updating Hotel Registry",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Updating Vacancy Request Hotline",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Upgrading Gadgets",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Upholstering Sofas and Loveseats",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Weathering Buildings",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Wrangling All Wreckage",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Writing Scrolling Startup String Text",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Zeroing Crime Network",
+          "loading_string_rarity": 0
+        }
+      ]
+    }
+  ]
+}
