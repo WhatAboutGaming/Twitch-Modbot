@@ -835,6 +835,7 @@ function setup() {
       if (dataToDisplay[audioNameIndex].is_valid == true) {
         // Use query_value here
         //console.log(dataToDisplay[audioNameIndex].query_value);
+        sound.stop();
         sound = loadSound(dataToDisplay[audioNameIndex].query_value);
       }
     }
