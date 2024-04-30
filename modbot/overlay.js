@@ -835,10 +835,19 @@ function setup() {
       if (dataToDisplay[audioNameIndex].is_valid == true) {
         // Use query_value here
         //console.log(dataToDisplay[audioNameIndex].query_value);
-        sound.stop();
-        sound = loadSound(dataToDisplay[audioNameIndex].query_value);
+        //sound.stop();
+        //sound.setLoop(false);
+        //sound = loadSound(dataToDisplay[audioNameIndex].query_value);
       }
     }
+  });
+
+  socket.on("audio_name", function(data) {
+    //console.log("audio_name");
+    //console.log(data);
+    sound.stop();
+    sound.setLoop(false);
+    sound = loadSound(data);
   });
 
   socket.on("loop_audio", function(data) {
@@ -846,6 +855,8 @@ function setup() {
     //console.log(data);
     sound.setLoop(data);
   });
+
+  setInterval(playAudio, 100, false);
 
   socket.on("play_audio", function(data) {
     //console.log("play_audio");
@@ -858,11 +869,11 @@ function setup() {
     */
     if (sound.isLoaded() == false) {
       //console.log(new Date().toISOString() + " File loading, please wait...");
-      setInterval(playAudio, 100, data);
+      //setInterval(playAudio, 100, data);
     }
     if (sound.isLoaded() == true) {
       //console.log(new Date().toISOString() + " File loaded successfully!");
-      sound.play();
+      //sound.play();
     }
   });
 
@@ -1979,7 +1990,7 @@ function playAudio(audioStatus) {
   //console.log(new Date().toISOString() + " audioStatusGlobal = " + audioStatusGlobal);
   if (audioStatusGlobal == true) {
     if (sound.isLoaded() == false) {
-      audioStatusGlobal = true;
+      //audioStatusGlobal = true;
       //console.log(new Date().toISOString() + " File loading, please wait...");
     }
     if (sound.isLoaded() == true) {

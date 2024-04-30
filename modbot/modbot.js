@@ -1063,8 +1063,21 @@ io.sockets.on("connection",
     io.to(socket.id).emit("query_found", queryFound);
     io.to(socket.id).emit("valid_query_data_found", validQueryDataFound);
     if (validQueryDataFound == true) {
+      // todo: make it so overlay can reload (or load new files) audio files without having to reload the entire overlay
       io.to(socket.id).emit("query_to_use", queryToUse);
       io.to(socket.id).emit("data_to_display", dataToDisplay);
+      let audioNameIndex = dataToDisplay.findIndex(element => element.query_name == "audio_name".toLowerCase());
+      //console.log(dataToDisplay[audioNameIndex]);
+      if (audioNameIndex >= 0) {
+        if (dataToDisplay[audioNameIndex].is_valid == false) {
+          // Use default_value here
+          //
+        }
+        if (dataToDisplay[audioNameIndex].is_valid == true) {
+          // Use query_value here
+          io.sockets.emit("audio_name", dataToDisplay[audioNameIndex].query_value);
+        }
+      }
       let audioLoopIndex = dataToDisplay.findIndex(element => element.query_name == "audio_loop".toLowerCase());
       //console.log(dataToDisplay[audioLoopIndex]);
       if (audioLoopIndex >= 0) {
@@ -1074,14 +1087,7 @@ io.sockets.on("connection",
         }
         if (dataToDisplay[audioLoopIndex].is_valid == true) {
           // Use query_value here
-          if (dataToDisplay[audioLoopIndex].query_value == false) {
-            //
-            io.sockets.emit("loop_audio", false);
-          }
-          if (dataToDisplay[audioLoopIndex].query_value == true) {
-            //
-            io.sockets.emit("loop_audio", true);
-          }
+          io.sockets.emit("loop_audio", dataToDisplay[audioLoopIndex].query_value);
         }
       }
       let audioPlayIndex = dataToDisplay.findIndex(element => element.query_name == "audio_play".toLowerCase());
