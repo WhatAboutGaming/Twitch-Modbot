@@ -94,6 +94,97 @@ var textSizeToUse = fontDefaultSize * fontSizeMultiplier;
 var textDefaultLeadingToUse = ((fontDefaultLeading * fontSizeMultiplier) - fontDefaultLeading1px) + fontStrokeWeight;
 var textStrokeLeadingToUse = ((fontStrokeLeading * fontSizeMultiplier) - fontStrokeLeading1px) + fontStrokeWeight;
 
+var globalConfig = {
+  controller_config: "",
+  linux_restart_command: "",
+  windows_restart_command: "",
+  enable_slur_detection: true,
+  permaban_when_slur_is_detected: true,
+  slur_detection_timeout: 600,
+  long_message_length: 250,
+  long_message_timeout: 300,
+  all_caps_message_length: 175,
+  all_caps_message_ratio: 0.9,
+  all_caps_message_timeout: 300,
+  permaban_if_first_message_is_long: true,
+  timeout_if_message_is_long: false,
+  warn_if_message_is_long: true,
+  enable_updating_stream_title_automatically: true,
+  enable_check_uptime: true,
+  enable_check_moderators: true,
+  enable_check_followage: true,
+  send_introductory_messages_to_new_users: true,
+  send_help_messages_to_new_users: false,
+  introductory_message_to_new_users: "",
+  introductory_message_to_new_users_with_help_messages: "",
+  introductory_message_to_returning_users: "",
+  introductory_message_to_returning_users_with_help_messages: "",
+  get_stream_viewer_count: false,
+  webserver_port: 8080,
+  chat_config: "",
+  run_start_time: new Date().getTime(),
+  next_run_start_time: new Date().getTime(),
+  stream_end_time: new Date().getTime(),
+  initial_accept_inputs: false,
+  initial_accept_tts: false,
+  initial_input_mode: 2,
+  voting_enabled: true,
+  threshold_to_change_mode: 0.75,
+  is_advanced_mode_temporary: false,
+  is_voting_temporary: false,
+  is_advanced_cooldown_enabled: true,
+  is_voting_cooldown_enabled: true,
+  advanced_allowed_period_millis: 300000,
+  voting_allowed_period_millis: 300000,
+  vote_expiration_time_millis: 300000,
+  help_message_cooldown_millis: 5000,
+  game_title: "Game Title",
+  game_title_short: "Game Title Short",
+  game_title_shorter: "Game Title Shorter",
+  game_title_shorter_2: "Game Title Shorter 2",
+  game_title_shorter_3: "Game Title Shorter 3",
+  stream_title: "Stream Title",
+  stream_going_offline_message: "Stream Going Offline Message",
+  send_stream_going_offline_message: true,
+  next_game_title: "Next Game Title",
+  next_game_title_short: "Next Game Title Short",
+  next_game_title_shorter: "Next Game Title Shorter",
+  next_game_title_shorter_2: "Next Game Title Shorter 2",
+  next_game_title_shorter_3: "Next Game Title Shorter 3",
+  main_database_name: "",
+  chatters_collection_name: "",
+  run_name: "",
+  global_database_name: "",
+  inputter_database_name: "",
+  macro_database_name: "",
+  use_macro_database: false,
+  reason_macro_database_is_disabled: "",
+  discord_url: "",
+  github_message: "",
+  github_repo: "",
+  run_id: -1,
+  notes: "To test server: Set game_title as TEST RUN 0, set stream_title as TEST RUN 1, set next_game_title as TEST RUN 2, set main_database_name as test_database_main, set chatters_collection_name as test_database_chatters, set run_name as test_database_run_name, set global_database_name as test_database_global, set inputter_database_name as test_database_inputters, set macro_database_name as test_database_macro, set run_id as -1",
+  overlay_enable_hourly_beeps: false,
+  overlay_enable_secondary_beeps: false,
+  overlay_header_text: "Restarting overlay",
+  overlay_advanced_mode_help_message_to_display: "\n\n\n\n\n!help to learn how to play",
+  overlay_text_rotation: [
+   "Hi Chat :)"
+  ],
+  current_run_endgame_goals: [
+    "Hi Chat :)"
+  ],
+  periodical_news_messages: [
+    "Hi Chat :)"
+  ],
+  help_message_saving_macros: [
+    "Hi Chat :)"
+  ],
+  sassy_replies: [
+    "Used to reply to certain users when they send a message or ping the bot or ping the streamer or ping the channel owner??? This is not implemented yet"
+  ]
+};
+
 var queryFound = false;
 var queryToUse = {};
 var streamStatus = {
@@ -754,16 +845,26 @@ var validQueryDataFound = false;
 
 var secondCurrent = 0;
 var secondOld = 0;
+var minuteCurrent = 0;
+var minuteOld = 0;
+var hourCurrent = 0;
+var hourOld = 0;
 
 var font;
 var socket;
 var sound;
+var hourlyBeepSoundEffects = [0, 0];
+var secondaryBeepSoundEffects = [0, 0];
 
 var audioStatusGlobal = false;
 
 function preload() {
   font = loadFont(fontName);
   sound = loadSound("placeholder.mp3");
+  hourlyBeepSoundEffects[0] = loadSound("watch_beep_1.mp3");
+  hourlyBeepSoundEffects[1] = loadSound("watch_beep_2.mp3");
+  secondaryBeepSoundEffects[0] = loadSound("watch_beep_1_short.mp3");
+  secondaryBeepSoundEffects[1] = loadSound("watch_beep_2_short.mp3");
 }
 
 function recalculateFont(newFontSizeMultiplier, newFontStrokeWeightMultiplier) { // Add these multipliers to the queries? (and override size with multipler or mul;tipler with size?)
@@ -800,6 +901,12 @@ function setup() {
   createCanvas(1920, 1080);
   background("#00000000");
   socket = io.connect();
+
+  socket.on("global_config", function(data) {
+    globalConfig = data;
+    //console.log("GLOBAL CONFIG");
+    //console.log(globalConfig);
+  });
 
   socket.on("query_found", function(data) {
     queryFound = data;
@@ -945,7 +1052,31 @@ function draw() {
   clear();
   background("#00000000");
   secondCurrent = new Date().getUTCSeconds();
+  minuteCurrent = new Date().getUTCMinutes();
+  hourCurrent = new Date().getUTCHours();
   if (secondCurrent != secondOld) {
+    if (minuteCurrent != minuteOld) {
+      if (globalConfig.overlay_enable_secondary_beeps == true) {
+        if (minuteCurrent == 15 || minuteCurrent == 30 || minuteCurrent == 45) {
+          if (secondaryBeepSoundEffects.length > 0) {
+            let randomSecondaryBeepSoundEffectIndex = Math.floor(Math.random() * secondaryBeepSoundEffects.length);
+            //console.log(new Date().toISOString() + " randomSecondaryBeepSoundEffectIndex = " + randomSecondaryBeepSoundEffectIndex);
+            secondaryBeepSoundEffects[randomSecondaryBeepSoundEffectIndex].play();
+          }
+        }
+      }
+      if (globalConfig.overlay_enable_hourly_beeps == true) {
+        if (minuteCurrent == 0) {
+          if (hourCurrent != hourOld) {
+            if (hourlyBeepSoundEffects.length > 0) {
+              let randomHourlyBeepSoundEffectIndex = Math.floor(Math.random() * hourlyBeepSoundEffects.length);
+              //console.log(new Date().toISOString() + " randomHourlyBeepSoundEffectIndex = " + randomHourlyBeepSoundEffectIndex);
+              hourlyBeepSoundEffects[randomHourlyBeepSoundEffectIndex].play();
+            }
+          }
+        }
+      }
+    }
     if (secondCurrent % 3 == 0) {
       // Change loading strings here (is every 3 seconds good?)
       //console.log("Multiple Of 3");
@@ -1928,6 +2059,8 @@ function draw() {
   }
 
   secondOld = secondCurrent;
+  minuteOld = minuteCurrent;
+  hourOld = hourCurrent;
 }
 
 function requestTwitchStreamStatus() {

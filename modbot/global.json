@@ -15,6 +15,7 @@
   "warn_if_message_is_long": false,
   "enable_silent_timeout": true,
   "ban_spambots": true,
+  "ban_user_again_if_user_is_still_marked_as_spambot": false,
   "send_messages_to_moderated_user": true,
   "send_whispers_to_moderated_user": true,
   "enable_check_uptime": true,
@@ -43,5 +44,7 @@
   "log_twitch_moderation_action_to_text_file": true,
   "discord_url": "",
   "github_message": "The source code for this bot can be found here:",
-  "github_repo": "https://github.com/WhatAboutGaming/Twitch-Modbot"
+  "github_repo": "https://github.com/WhatAboutGaming/Twitch-Modbot",
+  "overlay_enable_hourly_beeps": true,
+  "overlay_enable_secondary_beeps": true
 }

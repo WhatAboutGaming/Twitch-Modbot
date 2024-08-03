@@ -5,6 +5,53 @@
   "rarity_observations": "minimum is the floor of the integer to be randomized, maximum is the ceiling of the integer to be randomized, the lower the rarity number of a string, the more commom it is, the higher it gets, the rarer it is.",
   "loading_strings": [
     {
+      "loading_strings_pack_link": "N/A",
+      "loading_strings_pack_alt_link": "N/A",
+      "loading_strings_pack_name": "Barn OS",
+      "loading_strings_pack": [
+        {
+          "loading_string": " ____                   ___  ____  \n| __ )  __ _ _ __ _ __ / _ \/ ___| \n|  _ \\ / _` | '__| '_ \\ | | \\___ \\ \n| |_) | (_| | |  | | | | |_| |___) |\n|____/ \\__,_|_|  |_| |_|\\___/|____/ ",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Welcome to BarnOS v1.2.3 (Haystack Build)",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Initializing Cumulus Computing Environment...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Tractor-Beam Data Transfer Online",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Poultry-Based Security System Activated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hay Cooling System Operational",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Quantum Entanglement Established with Sister Barns",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "WARNING: Unusual Chicken Activity Detected in Sector 7G. Investigate?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "BarnOS loaded successfully.",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Type !help for a list of available commands.",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
       "loading_strings_pack_link": "https://www.thesimswiki.com/wiki/User:K6ka https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://modthesims.info/m/297866 https://modthesims.info/showthread.php?t=331011",
       "loading_strings_pack_alt_link": "https://web.archive.org/web/20240427014110/https://www.thesimswiki.com/wiki/User:K6ka https://web.archive.org/web/20240427011957/https://www.thesimswiki.com/wiki/User:K6ka/Startup_strings https://web.archive.org/web/20240427014659/https://modthesims.info/m/297866 https://web.archive.org/web/20240427015333/https://modthesims.info/showthread.php?t=331011",
       "loading_strings_pack_name": "The Sims Base Game",
