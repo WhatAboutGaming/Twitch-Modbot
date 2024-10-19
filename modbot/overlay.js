@@ -94,6 +94,12 @@ var textSizeToUse = fontDefaultSize * fontSizeMultiplier;
 var textDefaultLeadingToUse = ((fontDefaultLeading * fontSizeMultiplier) - fontDefaultLeading1px) + fontStrokeWeight;
 var textStrokeLeadingToUse = ((fontStrokeLeading * fontSizeMultiplier) - fontStrokeLeading1px) + fontStrokeWeight;
 
+var currentTimeMillis = new Date().getTime();
+
+var currentTimeToCompareAgainstServerTime = new Date().getTime();
+var serverCurrentTime = new Date().getTime();
+var serverToOverlayTimeDriftMillis = 0;
+
 var globalConfig = {
   controller_config: "",
   linux_restart_command: "",
@@ -188,6 +194,10 @@ var globalConfig = {
 var queryFound = false;
 var queryToUse = {};
 var streamStatus = {
+  time_server_received_twitch_stream_status_request: new Date().getTime(),
+  time_overlay_requested_twitch_stream_status: new Date().getTime(),
+  overlay_to_server_time_drift_millis: 0,
+  server_current_time: new Date().getTime(),
   stream_status_started_at: "",
   stream_status_started_at_millis: 0,
   stream_status_viewer_count: 0,
@@ -904,30 +914,45 @@ function setup() {
 
   socket.on("global_config", function(data) {
     globalConfig = data;
+    if (socket.connected == true) {
+      requestTwitchStreamStatus(); // Make overlay not display twitch related stuff and other stuff idk when client is not connected to the server
+    }
     //console.log("GLOBAL CONFIG");
     //console.log(globalConfig);
   });
 
   socket.on("query_found", function(data) {
     queryFound = data;
+    if (socket.connected == true) {
+      requestTwitchStreamStatus(); // Make overlay not display twitch related stuff and other stuff idk when client is not connected to the server
+    }
     //console.log("queryFound");
     //console.log(queryFound);
   });
 
   socket.on("valid_query_data_found", function(data) {
     validQueryDataFound = data;
+    if (socket.connected == true) {
+      requestTwitchStreamStatus(); // Make overlay not display twitch related stuff and other stuff idk when client is not connected to the server
+    }
     //console.log("validQueryDataFound");
     //console.log(validQueryDataFound);
   });
 
   socket.on("query_to_use", function(data) {
     queryToUse = data;
+    if (socket.connected == true) {
+      requestTwitchStreamStatus(); // Make overlay not display twitch related stuff and other stuff idk when client is not connected to the server
+    }
     //console.log("queryToUse");
     //console.log(queryToUse);
   });
 
   socket.on("data_to_display", function(data) {
     dataToDisplay = data;
+    if (socket.connected == true) {
+      requestTwitchStreamStatus(); // Make overlay not display twitch related stuff and other stuff idk when client is not connected to the server
+    }
     //console.log("dataToDisplay");
     //console.log(dataToDisplay);
     //let channelIdToUse = dataToDisplay.findIndex(element => element.query_name == "channel_id".toLowerCase());
@@ -997,11 +1022,31 @@ function setup() {
   });
 
   socket.on("stream_status", function(data) {
+    currentTimeToCompareAgainstServerTime = new Date().getTime();
     streamStatus = data;
+    //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.server_current_time;
+    serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_uptime_was_requested;
+    //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_server_received_twitch_stream_status_request;
+    //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_overlay_requested_twitch_stream_status;
+    //console.log("streamStatus.overlay_to_server_time_drift_millis = " + streamStatus.overlay_to_server_time_drift_millis);
+    //console.log("1 = ");
+    //console.log(currentTimeToCompareAgainstServerTime - streamStatus.server_current_time); // 4th (Right after Twitch responds to the request (Server time))
+    //console.log("2 = ");
+    //console.log(currentTimeToCompareAgainstServerTime - streamStatus.time_uptime_was_requested); // 3rd (Right before requesting to Twitch (Server time))
+    //console.log("3 = ");
+    //console.log(currentTimeToCompareAgainstServerTime - streamStatus.time_server_received_twitch_stream_status_request); // 2nd (Time server receives request from overlay (This is server time, not overlay time))
+    //console.log("4 = ");
+    //console.log(currentTimeToCompareAgainstServerTime - streamStatus.time_overlay_requested_twitch_stream_status); // 1st (Time overlay sends request to server (This is overlay time, not server time))
+    //console.log("currentTimeToCompareAgainstServerTime = " + currentTimeToCompareAgainstServerTime);
+    //console.log("streamStatus.server_current_time = " + streamStatus.server_current_time);
+    //console.log("serverToOverlayTimeDriftMillis = " + serverToOverlayTimeDriftMillis);
     //console.log("streamStatus");
     //console.log(streamStatus);
   });
   socket.on("loading_strings", function(data) {
+    if (socket.connected == true) {
+      requestTwitchStreamStatus(); // Make overlay not display twitch related stuff and other stuff idk when client is not connected to the server
+    }
     loadingStringsConfig = data;
     //console.log("loadingStringsConfig");
     //console.log(loadingStringsConfig);
@@ -1049,6 +1094,7 @@ function setup() {
 }
 
 function draw() {
+  currentTimeMillis = new Date().getTime();
   clear();
   background("#00000000");
   secondCurrent = new Date().getUTCSeconds();
@@ -1472,7 +1518,19 @@ function draw() {
           if (twitchStreamUptimeFontLeadingUseMultiplier == false) {
             textLeading(twitchStreamUptimeFontLeading);
           }
-          text(streamStatus.stream_status_uptime_string, twitchStreamUptimeXPos, twitchStreamUptimeYPos);
+          let streamStatusDeltaUptime = currentTimeMillis - streamStatus.stream_status_started_at_millis;
+          //console.log("A streamStatusDeltaUptime = " + streamStatusDeltaUptime);
+          streamStatusDeltaUptime = streamStatusDeltaUptime - serverToOverlayTimeDriftMillis;
+          //console.log("B streamStatusDeltaUptime = " + streamStatusDeltaUptime);
+          //console.log("serverToOverlayTimeDriftMillis = " + serverToOverlayTimeDriftMillis);
+          let streamStatusUptimeDays = (parseInt(streamStatusDeltaUptime / 86400000)).toString().padStart(2, "0");
+          let streamStatusUptimeHours = (parseInt(streamStatusDeltaUptime / 3600000) % 24).toString().padStart(2, "0");
+          let streamStatusUptimeMinutes = (parseInt(streamStatusDeltaUptime / 60000) % 60).toString().padStart(2, "0");
+          let streamStatusUptimeSeconds = (parseInt(streamStatusDeltaUptime / 1000) % 60).toString().padStart(2, "0");
+          let streamStatusUptimeMillis = (streamStatusDeltaUptime % 1000).toString().padStart(3, "0");
+          let streamStatusUptimeString = streamStatusUptimeDays + "day " + streamStatusUptimeHours + "hour " + streamStatusUptimeMinutes + "min " + streamStatusUptimeSeconds + "sec " + streamStatusUptimeMillis + "msec";
+          let streamStatusUptimeString2 = streamStatusUptimeDays + "d " + streamStatusUptimeHours + "h " + streamStatusUptimeMinutes + "m " + streamStatusUptimeSeconds + "s " + streamStatusUptimeMillis + "ms";
+          text(streamStatusUptimeString2, twitchStreamUptimeXPos, twitchStreamUptimeYPos);
         }
       }
       if (streamStatus.is_stream_live == false) {
@@ -1533,6 +1591,10 @@ function draw() {
   if (socket.connected == false) {
     //console.log(new Date().toISOString() + " Are we disconnected?");
     streamStatus = {
+      time_server_received_twitch_stream_status_request: new Date().getTime(),
+      time_overlay_requested_twitch_stream_status: new Date().getTime(),
+      overlay_to_server_time_drift_millis: 0,
+      server_current_time: new Date().getTime(),
       stream_status_started_at: "",
       stream_status_started_at_millis: 0,
       stream_status_viewer_count: 0,
@@ -1871,7 +1933,7 @@ function draw() {
     if (currentTimeFontLeadingUseMultiplier == false) {
       textLeading(currentTimeFontLeading);
     }
-    text(new Date().toISOString(), currentTimeXPos, currentTimeYPos);
+    text(new Date(currentTimeMillis).toISOString(), currentTimeXPos, currentTimeYPos);
   }
 
   //Below are processing steps related to loading strings
@@ -2101,7 +2163,11 @@ function requestTwitchStreamStatus() {
         if (isAnyRequestedTwitchDataValid == true) {
           // This check has to be at the end of the check that tells if channel id is valid, not outside (DONE)
           //console.log("isAnyRequestedTwitchDataValid = " + isAnyRequestedTwitchDataValid);
-          socket.emit("request_twitch_stream_status", dataToDisplay[channelIdQueryIndex].query_value); // todo: make a modified version of getTwitchStreamStatus function that sends data directly to overlay instead of chat (DONE)
+          let requestTwitchStreamStatusPayload = {
+            time_overlay_requested_twitch_stream_status: new Date().getTime(),
+            channel_id: dataToDisplay[channelIdQueryIndex].query_value
+          };
+          socket.emit("request_twitch_stream_status", requestTwitchStreamStatusPayload); // todo: make a modified version of getTwitchStreamStatus function that sends data directly to overlay instead of chat (DONE)
           //console.log("Multiple Of 5");
           //console.log("secondCurrent = " + secondCurrent + " and secondOld = " + secondOld);
         }

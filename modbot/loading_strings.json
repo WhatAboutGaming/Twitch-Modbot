@@ -5,12 +5,439 @@
   "rarity_observations": "minimum is the floor of the integer to be randomized, maximum is the ceiling of the integer to be randomized, the lower the rarity number of a string, the more commom it is, the higher it gets, the rarer it is.",
   "loading_strings": [
     {
+      "loading_strings_pack_link": "https://github.com/MustardOS https://github.com/MustardOS/internal https://muos.dev/ https://github.com/MustardOS/internal/blob/main/config/messages.txt https://raw.githubusercontent.com/MustardOS/internal/refs/heads/main/config/messages.txt",
+      "loading_strings_pack_alt_link": "https://github.com/MustardOS https://github.com/MustardOS/internal https://muos.dev/ https://github.com/MustardOS/internal/blob/main/config/messages.txt https://raw.githubusercontent.com/MustardOS/internal/refs/heads/main/config/messages.txt",
+      "loading_strings_pack_name": "muOS",
+      "loading_strings_pack": [
+        {
+          "loading_string": "A cucumber a day keeps the weasels away",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "All of my books are sorted by the authors first name",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Always be yourself, unless you can be a unicorn",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Antisocial tendencies: a selective social approach?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Are we still here? I want to play games already...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Are you really too hip to be square?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Arguments are explanations for why someone else is right",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Baz is gonna make us some seaweed wrapped sausages!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Be sure to drink your Ovaltine!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Beans beans the magical fruit...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Before you let go, come sail the ocean once with me...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Better keep that drink refrigerated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Chaos is just another form of pattern waiting to be deciphered",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cheese toasties are the best toasties, hands down",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Control freaks are experts in the art of guidance",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cool",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Could I get my parking ticket validated?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Cows are just grass-powered milk machines",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Dancing in the rain is just nature's way of testing your waterproofing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Early arrivals making the rest of us fashionably late",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ehhhhhhh",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Embrace uncertainty; it's the only constant in an ever-changing world",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Engine engine number nine on the New York transit line...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Excuse me I have to go and fill up some jars",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Fun-sized snacks are just vertically efficient",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Good luck in 2018",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Hydraulic suspension guarantees a nice smooth ride",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I accidentally joined a salsa dancing class for robots",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I am not ignoring you; I'm just selectively deaf",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I bought a pencil with no eraser, now I'm stuck with my mistakes",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I carry traveller's cheques that are accepted worldwide",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I fear our government's funds are being misappropriated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I follow my heart... but it sometimes gets lost",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I gave my love a chicken it had no bones... mmmm chicken",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I have trained my plants to do nothing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I like music that's syncopated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I like my steak chicken-fried",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I named my car \"Potato\" because it's a little mashed up",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I prefer my coffee like I prefer my reality: highly filtered",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I put my cat on a diet, now it's a heavy metal band member",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I sent a letter to the King of Portugal, who never replied",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I set my blender to frappe",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I speak fluent gibberish",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I tried counting sheep, but they kept jumping over the moon",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I was thrown off a subway because I had expectorated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'd like the Latin verb 'to go' conjugated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'd like to see this sword fight on instant replay",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'll meet you in the foyer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'm not a complete idiot; some parts are missing",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'm not a pessimist; I'm just an optimist with experience",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'm not anti-social; I'm just pro-solitude",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'm not weird; I'm just a limited edition",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'm on a seafood diet. I see food, and I eat it",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "I'm waiting for these feelings of nausea to subside",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If at first you don't succeed, redefine success",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If life gives you lemons, make a lemon-powered rocket and explore the cosmos",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If life gives you melons, you might be dyslexic",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If opportunity doesn't knock, build a door out of recycled dreams",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If procrastination was a sport, I'd be a world champion... eventually",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If you can't be a good example, be a cautionary tale",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "If you're planning on retiring, have money set aside",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "In a world full of copycats, be the printer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "In a world full of trends, I remain a classic potato",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "In case of an earthquake, stand in a doorway",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Instead of skip, I'd rather sashay!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "It's my mum's birthday today, so I got her a slab of monster cans",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Let's get these sausages hot-plated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Life is a puzzle, but I lost the box with the picture on it",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Life is like a box of chocolates: mostly empty calories",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Life is too short to stuff a mushroom, but I do it anyway",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My brain has too many tabs open",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My craving for peanuts will never be satiated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My entire wardrobe is colour coordinated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My fish can swim better than your fish",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My pet rock is an introvert",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My robot dog's bark is worse than his byte",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My ship has barnacles on its underside",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "My waffle iron has more gridlock than the city",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Normalcy is overrated; embrace your quirks",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Now this is true AND proper...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Now with 200% more candour!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Of all crafts, my favourite is macrame",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Procrastination: the art of keeping busy while accomplishing nothing?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Reality called, but I didn't answer",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Remember, pedestrians always have the right of way",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Retro because everything old is new again",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "So tell me what you want what you really really want",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "So what are you going to do with this time?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The battle between productivity and naptime rages on?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The early bird catches the worm, but the late owl gets the leftovers",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The golden ratio is 8:7... apparently!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The importance of breakfast cannot be overstated",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The moon is just the sun's nightlight",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The next message is a lie",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The previous message was a lie",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "The secret ingredient is always more cheese",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "This floor is lovely. Is it parquet?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Ugh, disgusting but it kinda works...",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "What this island needs is a good reasonable buffet",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Why be a square when you can be a parallelogram?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Why don't scientists trust atoms? Because they make up everything!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Why jog when you can amble with enthusiasm?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Why walk when you can dance and confuse the floor?",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "Why walk when you can waltz!",
+          "loading_string_rarity": 0
+        },
+        {
+          "loading_string": "You should let your conscience be your guide",
+          "loading_string_rarity": 0
+        }
+      ]
+    },
+    {
       "loading_strings_pack_link": "N/A",
       "loading_strings_pack_alt_link": "N/A",
       "loading_strings_pack_name": "Barn OS",
       "loading_strings_pack": [
         {
-          "loading_string": " ____                   ___  ____  \n| __ )  __ _ _ __ _ __ / _ \/ ___| \n|  _ \\ / _` | '__| '_ \\ | | \\___ \\ \n| |_) | (_| | |  | | | | |_| |___) |\n|____/ \\__,_|_|  |_| |_|\\___/|____/ ",
+          "loading_string": " ____                   ___  ____  \n| __ )  __ _ _ __ _ __ / _ \\/ ___| \n|  _ \\ / _` | '__| '_ \\ | | \\___ \\ \n| |_) | (_| | |  | | | | |_| |___) |\n|____/ \\__,_|_|  |_| |_|\\___/|____/ ",
           "loading_string_rarity": 0
         },
         {
