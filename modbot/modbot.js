@@ -4304,8 +4304,14 @@ async function onMessageHandler(target, tags, message, self) {
       //console.log("Test 97"),
       /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((b+e+s+t+)+|(b+u+y+)+|(c+h+e+a+p)+)+\s+((v+i+e+w+\w*)+|(f+o+l+o+w+\w*)+)+\s*([\w\,]*)*\s*((v+i+e+w+\w*)+|(f+o+l+o+w+\w*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Mon 2024-06-10T19:14:03Z]  <fafixfan> Hiqh quality and Cheap Viewers on  u.to/vRi7IA
       //console.log("Test 98"),
-      /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((b+e+s+t+)+|(b+u+y+)+|(c+h+e+a+p)+)+\s+((v+i+e+w+\w*)+|(f+o+l+o+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")) // [Mon 2024-06-10T19:14:03Z]  <fafixfan> Hiqh quality and Cheap Viewers on  u.to/vRi7IA
-      //console.log("Test 99")
+      /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((b+e+s+t+)+|(b+u+y+)+|(c+h+e+a+p)+)+\s+((v+i+e+w+\w*)+|(f+o+l+o+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Mon 2024-06-10T19:14:03Z]  <fafixfan> Hiqh quality and Cheap Viewers on  u.to/vRi7IA
+      //console.log("Test 99"),
+      /((r*e*m+o+v+e+)+|(n+o+)+)+\s*(\w*)\s*(s*p+a+c+e+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // Remove the space / No Space
+      //console.log("Test 100"),
+      /(l+e+t+[\'\’]*\s*[UuSs]*)+\s*(c+o+n+e+c+t+)+\s*(\w*)\s*(d+i+s+c+o+r+d+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Sat 2024-11-09T15:38:46Z]  <wumight4> Hey streamer 👋,I’ve been really enjoying your content, which is why I’m part of your squad. I noticed you’re facing some challenges with growing your channel and leveling up. I’d love to share ideas and help elevate your stream. Let’s connect on Discord: Femight7. (Let's connect on Discord)
+      //console.log("Test 101"),
+      /(l+e+t+[\'\’]*\s*[UuSs]*)+\s*(c+o+n+e+c+t+)+\s*(\w*)\s*(d+i+s+c+o+r+d+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")) // [Sat 2024-11-09T15:38:46Z]  <wumight4> Hey streamer 👋,I’ve been really enjoying your content, which is why I’m part of your squad. I noticed you’re facing some challenges with growing your channel and leveling up. I’d love to share ideas and help elevate your stream. Let’s connect on Discord: Femight7. (growing your channel)
+      //console.log("Test 102")
     ];
     let multiMessageSpamBotTypeA = [
       /((i+t+)+\s*(i+s+)|(i+t+\W*s+))+\s+(n+i+c+e+)+\s+(t+o+)+\s+(m+e+t+)+\s+(y+\w*)+\s+(\w+\W*v+e+)+\s+(w+a+t+c+h+e+d+)+\s+(y+\w*)+\s+([^\s]*)+\s+(t+w+\w*t+c+h+)\s+(c+h+a+n+e+l+\w*\W*)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")),
