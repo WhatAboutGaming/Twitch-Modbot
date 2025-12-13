@@ -862,19 +862,19 @@ var hourOld = 0;
 
 var font;
 var socket;
-var sound;
-var hourlyBeepSoundEffects = [0, 0];
-var secondaryBeepSoundEffects = [0, 0];
+//var sound;
+//var hourlyBeepSoundEffects = [0, 0];
+//var secondaryBeepSoundEffects = [0, 0];
 
 var audioStatusGlobal = false;
 
 function preload() {
   font = loadFont(fontName);
-  sound = loadSound("placeholder.mp3");
-  hourlyBeepSoundEffects[0] = loadSound("watch_beep_1.mp3");
-  hourlyBeepSoundEffects[1] = loadSound("watch_beep_2.mp3");
-  secondaryBeepSoundEffects[0] = loadSound("watch_beep_1_short.mp3");
-  secondaryBeepSoundEffects[1] = loadSound("watch_beep_2_short.mp3");
+  //sound = loadSound("placeholder.mp3");
+  //hourlyBeepSoundEffects[0] = loadSound("watch_beep_1.mp3");
+  //hourlyBeepSoundEffects[1] = loadSound("watch_beep_2.mp3");
+  //secondaryBeepSoundEffects[0] = loadSound("watch_beep_1_short.mp3");
+  //secondaryBeepSoundEffects[1] = loadSound("watch_beep_2_short.mp3");
 }
 
 function recalculateFont(newFontSizeMultiplier, newFontStrokeWeightMultiplier) { // Add these multipliers to the queries? (and override size with multipler or mul;tipler with size?)
@@ -977,15 +977,15 @@ function setup() {
   socket.on("audio_name", function(data) {
     //console.log("audio_name");
     //console.log(data);
-    sound.stop();
-    sound.setLoop(false);
-    sound = loadSound(data);
+    //sound.stop();
+    //sound.setLoop(false);
+    //sound = loadSound(data);
   });
 
   socket.on("loop_audio", function(data) {
     //console.log("loop_audio");
     //console.log(data);
-    sound.setLoop(data);
+    //sound.setLoop(data);
   });
 
   setInterval(playAudio, 100, false);
@@ -999,33 +999,37 @@ function setup() {
       console.log(new Date().toISOString() + " File Loading???");
     }
     */
+    /*
     if (sound.isLoaded() == false) {
       //console.log(new Date().toISOString() + " File loading, please wait...");
       //setInterval(playAudio, 100, data);
     }
+    */
+    /*
     if (sound.isLoaded() == true) {
       //console.log(new Date().toISOString() + " File loaded successfully!");
       //sound.play();
     }
+    */
   });
 
   socket.on("pause_audio", function(data) {
     //console.log("pause_audio");
     //console.log(data);
-    sound.pause();
+    //sound.pause();
   });
 
   socket.on("stop_audio", function(data) {
     //console.log("stop_audio");
     //console.log(data);
-    sound.stop();
+    //sound.stop();
   });
 
   socket.on("stream_status", function(data) {
     currentTimeToCompareAgainstServerTime = new Date().getTime();
     streamStatus = data;
     //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.server_current_time;
-    serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_uptime_was_requested;
+    //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_uptime_was_requested;
     //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_server_received_twitch_stream_status_request;
     //serverToOverlayTimeDriftMillis = currentTimeToCompareAgainstServerTime - streamStatus.time_overlay_requested_twitch_stream_status;
     //console.log("streamStatus.overlay_to_server_time_drift_millis = " + streamStatus.overlay_to_server_time_drift_millis);
@@ -1104,21 +1108,25 @@ function draw() {
     if (minuteCurrent != minuteOld) {
       if (globalConfig.overlay_enable_secondary_beeps == true) {
         if (minuteCurrent == 15 || minuteCurrent == 30 || minuteCurrent == 45) {
+          /*
           if (secondaryBeepSoundEffects.length > 0) {
             let randomSecondaryBeepSoundEffectIndex = Math.floor(Math.random() * secondaryBeepSoundEffects.length);
             //console.log(new Date().toISOString() + " randomSecondaryBeepSoundEffectIndex = " + randomSecondaryBeepSoundEffectIndex);
-            secondaryBeepSoundEffects[randomSecondaryBeepSoundEffectIndex].play();
+            //secondaryBeepSoundEffects[randomSecondaryBeepSoundEffectIndex].play();
           }
+          */
         }
       }
       if (globalConfig.overlay_enable_hourly_beeps == true) {
         if (minuteCurrent == 0) {
           if (hourCurrent != hourOld) {
+            /*
             if (hourlyBeepSoundEffects.length > 0) {
               let randomHourlyBeepSoundEffectIndex = Math.floor(Math.random() * hourlyBeepSoundEffects.length);
               //console.log(new Date().toISOString() + " randomHourlyBeepSoundEffectIndex = " + randomHourlyBeepSoundEffectIndex);
-              hourlyBeepSoundEffects[randomHourlyBeepSoundEffectIndex].play();
+              //hourlyBeepSoundEffects[randomHourlyBeepSoundEffectIndex].play();
             }
+            */
           }
         }
       }
@@ -1520,7 +1528,7 @@ function draw() {
           }
           let streamStatusDeltaUptime = currentTimeMillis - streamStatus.stream_status_started_at_millis;
           //console.log("A streamStatusDeltaUptime = " + streamStatusDeltaUptime);
-          streamStatusDeltaUptime = streamStatusDeltaUptime - serverToOverlayTimeDriftMillis;
+          //streamStatusDeltaUptime = streamStatusDeltaUptime - serverToOverlayTimeDriftMillis;
           //console.log("B streamStatusDeltaUptime = " + streamStatusDeltaUptime);
           //console.log("serverToOverlayTimeDriftMillis = " + serverToOverlayTimeDriftMillis);
           let streamStatusUptimeDays = (parseInt(streamStatusDeltaUptime / 86400000)).toString().padStart(2, "0");
@@ -2187,6 +2195,7 @@ function playAudio(audioStatus) {
     return;
   }
   //console.log(new Date().toISOString() + " audioStatusGlobal = " + audioStatusGlobal);
+  /*
   if (audioStatusGlobal == true) {
     if (sound.isLoaded() == false) {
       //audioStatusGlobal = true;
@@ -2195,7 +2204,8 @@ function playAudio(audioStatus) {
     if (sound.isLoaded() == true) {
       audioStatusGlobal = false;
       //console.log(new Date().toISOString() + " File successfully loaded!");
-      sound.play();
+      //sound.play();
     }
   }
+  */
 }

@@ -1574,7 +1574,8 @@ io.sockets.on("connection",
         time_server_received_twitch_stream_status_request: new Date().getTime(),
         time_overlay_requested_twitch_stream_status: data.time_overlay_requested_twitch_stream_status
       };
-      timeOverlayRequestedTwitchStreamStatus.overlay_to_server_time_drift_millis = timeOverlayRequestedTwitchStreamStatus.time_server_received_twitch_stream_status_request - timeOverlayRequestedTwitchStreamStatus.time_overlay_requested_twitch_stream_status;
+      //timeOverlayRequestedTwitchStreamStatus.overlay_to_server_time_drift_millis = timeOverlayRequestedTwitchStreamStatus.time_server_received_twitch_stream_status_request - timeOverlayRequestedTwitchStreamStatus.time_overlay_requested_twitch_stream_status;
+      timeOverlayRequestedTwitchStreamStatus.overlay_to_server_time_drift_millis = 0;
       //console.log("timeOverlayRequestedTwitchStreamStatus = ");
       //console.log(timeOverlayRequestedTwitchStreamStatus);
       //console.log(new Date().toISOString() + " request_twitch_stream_status = ");
@@ -5812,7 +5813,8 @@ async function onMessageHandler(target, tags, message, self) {
           time_server_received_twitch_stream_status_request: new Date().getTime(),
           time_overlay_requested_twitch_stream_status: new Date().getTime()
         };
-        timeOverlayRequestedTwitchStreamStatus.overlay_to_server_time_drift_millis = timeOverlayRequestedTwitchStreamStatus.time_server_received_twitch_stream_status_request - timeOverlayRequestedTwitchStreamStatus.time_overlay_requested_twitch_stream_status;
+        //timeOverlayRequestedTwitchStreamStatus.overlay_to_server_time_drift_millis = timeOverlayRequestedTwitchStreamStatus.time_server_received_twitch_stream_status_request - timeOverlayRequestedTwitchStreamStatus.time_overlay_requested_twitch_stream_status;
+        timeOverlayRequestedTwitchStreamStatus.overlay_to_server_time_drift_millis = 0;
         getTwitchStreamStatus(roomId, userId, usernameToPing, target, messageId, twitchCredentials, twitchJsonEncodedBotAppAccessToken, false, "", timeOverlayRequestedTwitchStreamStatus);
       }
     }
@@ -5835,7 +5837,7 @@ async function onMessageHandler(target, tags, message, self) {
       }
     }
     */
-    let checkFollowAge = /^[!\"#$%&'()*+,\-./:;%=%?@\[\\\]^_`{|}~¡¦¨«¬­¯°±»½⅔¾⅝⅞∅ⁿ№★†‡‹›¿‰℅æßçñ¹⅓¼⅛²⅜³⁴₱€¢£¥—–·„“”‚‘’•√π÷×¶∆′″§Π♣♠♥♪♦∞≠≈©®™✓‛‟❛❜❝❞❟❠❮❯⹂〝〞〟＂🙶🙷🙸󠀢⍻✅✔𐄂🗸‱]+\s*(f+o+l+o+w+\s*a+g+e+)+/ig.test(originalMessage);
+    let checkFollowAge = /^[!\"#$%&'()*+,\-./:;%=%?@\[\\\]^_`{|}~¡¦¨«¬­¯°±»½⅔¾⅝⅞∅ⁿ№★†‡‹›¿‰℅æßçñ¹⅓¼⅛²⅜³⁴₱€¢£¥—–·„“”‚‘’•√π÷×¶∆′″§Π♣♠♥♪♦∞≠≈©®™✓‛‟❛❜❝❞❟❠❮❯⹂〝〞〟＂🙶🙷🙸󠀢⍻✅✔𐄂🗸‱]+\s*((f+o+l+o+w+\s*a+g+e+)+|(w+a+t+c+h+\s*(uptim[er]|upti[er]m|up\s*tim[er]|up\s*ti[er]m|tim[er]|ti[er]m)+)+)+/ig.test(originalMessage);
     if (checkFollowAge == true) {
       if (globalConfig.enable_check_followage == true) {
         getTwitchUserFollowingChannelStatus(roomId, userId, usernameToPing, target, messageId, twitchCredentials, twitchJsonEncodedBotAppAccessToken);
