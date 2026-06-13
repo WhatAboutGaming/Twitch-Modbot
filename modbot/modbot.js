@@ -4331,6 +4331,10 @@ async function onMessageHandler(target, tags, message, self) {
       //console.log("Test 110"),
       /(c+a+u+g+h+t*)+\s+\w*\s*(b+i+t+)+\s+\w*\s*((y+o+)+|(u+\s*r*)+\s*\w*\s*[\'\’]*\s*\w*)+\s+((c+o+n+t+e+n+t+)+|(s+t+r+[e*a*]*m+i*n*g*e*r*s*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Sat 2026-04-25T01:51:10Z] <xacegurux> Caught a bit of your stréam. Whén do you usually go livé? Can I have your stréam time to tuné in néxt time PopNemo  ! Lét chill about it on d.i s c0.r.d 👍 aceguru01, wàiting for your réquést
       //console.log("Test 111")
+      /(t+i+r+e+d*)+\s+\w*\s*(s+t+r+[e*a*]*m+i*n*g*e*r*s*)+\s+\w*\s*(z+e+r+[o0]+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Fri 2026-06-12T03:31:23Z] <idotoolub> Tired of streaming to zero? Let’s change that — only at stream promotion .ru @Stream_Promotion_bot (Part 1) (Tired of streaming to zero)
+      //console.log("Test 112")
+      /(l+e+t+[\'\’]*\s*[UuSs]*)+\s+(c+h+a+n+g+e*)+\s+(t+h+a+t*)+[\s—-]*(o+n+l+y+)+\s+\w*\s*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")) // [Fri 2026-06-12T03:31:23Z] <idotoolub> Tired of streaming to zero? Let’s change that — only at stream promotion .ru @Stream_Promotion_bot (Part 2) (Let’s change that — only at)
+      //console.log("Test 113")
       // [Mon 2026-02-02T16:37:15Z]  <contaminatedfirevecfyj> Viewers smmboost2.online  @axRCmIbO
     ];
     let multiMessageSpamBotTypeA = [
