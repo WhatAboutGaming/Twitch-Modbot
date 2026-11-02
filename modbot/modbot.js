@@ -2033,82 +2033,292 @@ io.sockets.on("connection",
 );
 
 var shiftCharCode = Δ => c => String.fromCharCode(c.charCodeAt(0) + Δ);
-var cyrillicsReplacementTable = [{
-  symbolOriginalString: /А/g,
-  symbolReplacementString: "A"
-}, {
-  symbolOriginalString: /В/g,
-  symbolReplacementString: "B"
-}, {
-  symbolOriginalString: /Е/g,
-  symbolReplacementString: "E"
-}, {
-  symbolOriginalString: /З/g,
-  symbolReplacementString: "3"
-}, {
-  symbolOriginalString: /К/g,
-  symbolReplacementString: "K"
-}, {
-  symbolOriginalString: /М/g,
-  symbolReplacementString: "M"
-}, {
-  symbolOriginalString: /Н/g,
-  symbolReplacementString: "H"
-}, {
-  symbolOriginalString: /О/g,
-  symbolReplacementString: "O"
-}, {
-  symbolOriginalString: /Р/g,
-  symbolReplacementString: "P"
-}, {
-  symbolOriginalString: /С/g,
-  symbolReplacementString: "C"
-}, {
-  symbolOriginalString: /Т/g,
-  symbolReplacementString: "T"
-}, {
-  symbolOriginalString: /Х/g,
-  symbolReplacementString: "X"
-}, {
-  symbolOriginalString: /Ѕ/g,
-  symbolReplacementString: "S"
-}, {
-  symbolOriginalString: /Ј/g,
-  symbolReplacementString: "J"
-}, {
-  symbolOriginalString: /а/g,
-  symbolReplacementString: "a"
-}, {
-  symbolOriginalString: /е/g,
-  symbolReplacementString: "e"
-}, {
-  symbolOriginalString: /о/g,
-  symbolReplacementString: "o"
-}, {
-  symbolOriginalString: /р/g,
-  symbolReplacementString: "p"
-}, {
-  symbolOriginalString: /с/g,
-  symbolReplacementString: "c"
-}, {
-  symbolOriginalString: /у/g,
-  symbolReplacementString: "y"
-}, {
-  symbolOriginalString: /х/g,
-  symbolReplacementString: "x"
-}, {
-  symbolOriginalString: /ѕ/g,
-  symbolReplacementString: "s"
-}, {
-  symbolOriginalString: /ј/g,
-  symbolReplacementString: "j"
-}, {
-  symbolOriginalString: /і/g,
-  symbolReplacementString: "i"
-}, {
-  symbolOriginalString: /І/g,
-  symbolReplacementString: "I"
-}];
+var cyrillicsReplacementTable = [
+  {
+    symbolOriginalString: /ᐯ/ig,
+    symbolReplacementString: "V"
+  },
+  {
+    symbolOriginalString: /ɪ/ig,
+    symbolReplacementString: "I"
+  },
+  {
+    symbolOriginalString: /𝖤/ig,
+    symbolReplacementString: "E"
+  },
+  {
+    symbolOriginalString: /ᗯ/ig,
+    symbolReplacementString: "W"
+  },
+  {
+    symbolOriginalString: /𝖤/ig,
+    symbolReplacementString: "E"
+  },
+  {
+    symbolOriginalString: /ᖇ/ig,
+    symbolReplacementString: "R"
+  },
+  {
+    symbolOriginalString: /Ｓ/ig,
+    symbolReplacementString: "S"
+  },
+  {
+    symbolOriginalString: /Ｓ/ig,
+    symbolReplacementString: "S"
+  },
+  {
+    symbolOriginalString: / /ig,
+    symbolReplacementString: " "
+  },
+  {
+    symbolOriginalString: /𝖮/ig,
+    symbolReplacementString: "O"
+  },
+  {
+    symbolOriginalString: /ᑎ/ig,
+    symbolReplacementString: "n"
+  },
+  {
+    symbolOriginalString: / /ig,
+    symbolReplacementString: " "
+  },
+  {
+    symbolOriginalString: /𝓣/ig,
+    symbolReplacementString: "T"
+  },
+  {
+    symbolOriginalString: /ᕼ/ig,
+    symbolReplacementString: "H"
+  },
+  {
+    symbolOriginalString: /𝗘/ig,
+    symbolReplacementString: "E"
+  },
+  {
+    symbolOriginalString: / /ig,
+    symbolReplacementString: " "
+  },
+  {
+    symbolOriginalString: /Ｓ/ig,
+    symbolReplacementString: "S"
+  },
+  {
+    symbolOriginalString: /𝕋/ig,
+    symbolReplacementString: "T"
+  },
+  {
+    symbolOriginalString: /ᖇ/ig,
+    symbolReplacementString: "R"
+  },
+  {
+    symbolOriginalString: /Ｅ/ig,
+    symbolReplacementString: "E"
+  },
+  {
+    symbolOriginalString: /ᗩ/ig,
+    symbolReplacementString: "A"
+  },
+  {
+    symbolOriginalString: /ᗰ/ig,
+    symbolReplacementString: "M"
+  },
+  {
+    symbolOriginalString: / /ig,
+    symbolReplacementString: " "
+  },
+  {
+    symbolOriginalString: /𝕊/ig,
+    symbolReplacementString: "S"
+  },
+  {
+    symbolOriginalString: /𝗧/ig,
+    symbolReplacementString: "T"
+  },
+  {
+    symbolOriginalString: /ᖇ/ig,
+    symbolReplacementString: "R"
+  },
+  {
+    symbolOriginalString: /𝑬/ig,
+    symbolReplacementString: "E"
+  },
+  {
+    symbolOriginalString: /ᗩ/ig,
+    symbolReplacementString: "A"
+  },
+  {
+    symbolOriginalString: /ᗰ/ig,
+    symbolReplacementString: "M"
+  },
+  {
+    symbolOriginalString: /_/ig,
+    symbolReplacementString: "_"
+  },
+  {
+    symbolOriginalString: /ᑭ/ig,
+    symbolReplacementString: "P"
+  },
+  {
+    symbolOriginalString: /ᖇ/ig,
+    symbolReplacementString: "R"
+  },
+  {
+    symbolOriginalString: /Ｏ/ig,
+    symbolReplacementString: "O"
+  },
+  {
+    symbolOriginalString: /ᗰ/ig,
+    symbolReplacementString: "M"
+  },
+  {
+    symbolOriginalString: /𝓞/ig,
+    symbolReplacementString: "O"
+  },
+  {
+    symbolOriginalString: /𝗧/ig,
+    symbolReplacementString: "T"
+  },
+  {
+    symbolOriginalString: /𝕀/ig,
+    symbolReplacementString: "I"
+  },
+  {
+    symbolOriginalString: /𝙾/ig,
+    symbolReplacementString: "O"
+  },
+  {
+    symbolOriginalString: /ᑎ/ig,
+    symbolReplacementString: "n"
+  },
+  {
+    symbolOriginalString: / /ig,
+    symbolReplacementString: " "
+  },
+  {
+    symbolOriginalString: /𝕕/ig,
+    symbolReplacementString: "d"
+  },
+  {
+    symbolOriginalString: /𝓸/ig,
+    symbolReplacementString: "o"
+  },
+  {
+    symbolOriginalString: /𝚝/ig,
+    symbolReplacementString: "t"
+  },
+  {
+    symbolOriginalString: / /ig,
+    symbolReplacementString: " "
+  },
+  {
+    symbolOriginalString: /𝑟/ig,
+    symbolReplacementString: "r"
+  },
+  {
+    symbolOriginalString: /𝓾/ig,
+    symbolReplacementString: "u"
+  },
+  {
+    symbolOriginalString: /А/g,
+    symbolReplacementString: "A"
+  },
+  {
+    symbolOriginalString: /В/g,
+    symbolReplacementString: "B"
+  },
+  {
+    symbolOriginalString: /Е/g,
+    symbolReplacementString: "E"
+  },
+  {
+    symbolOriginalString: /З/g,
+    symbolReplacementString: "3"
+  },
+  {
+    symbolOriginalString: /К/g,
+    symbolReplacementString: "K"
+  },
+  {
+    symbolOriginalString: /М/g,
+    symbolReplacementString: "M"
+  },
+  {
+    symbolOriginalString: /Н/g,
+    symbolReplacementString: "H"
+  },
+  {
+    symbolOriginalString: /О/g,
+    symbolReplacementString: "O"
+  },
+  {
+    symbolOriginalString: /Р/g,
+    symbolReplacementString: "P"
+  },
+  {
+    symbolOriginalString: /С/g,
+    symbolReplacementString: "C"
+  },
+  {
+    symbolOriginalString: /Т/g,
+    symbolReplacementString: "T"
+  },
+  {
+    symbolOriginalString: /Х/g,
+    symbolReplacementString: "X"
+  },
+  {
+    symbolOriginalString: /Ѕ/g,
+    symbolReplacementString: "S"
+  },
+  {
+    symbolOriginalString: /Ј/g,
+    symbolReplacementString: "J"
+  },
+  {
+    symbolOriginalString: /а/g,
+    symbolReplacementString: "a"
+  },
+  {
+    symbolOriginalString: /е/g,
+    symbolReplacementString: "e"
+  },
+  {
+    symbolOriginalString: /о/g,
+    symbolReplacementString: "o"
+  },
+  {
+    symbolOriginalString: /р/g,
+    symbolReplacementString: "p"
+  },
+  {
+    symbolOriginalString: /с/g,
+    symbolReplacementString: "c"
+  },
+  {
+    symbolOriginalString: /у/g,
+    symbolReplacementString: "y"
+  },
+  {
+    symbolOriginalString: /х/g,
+    symbolReplacementString: "x"
+  },
+  {
+    symbolOriginalString: /ѕ/g,
+    symbolReplacementString: "s"
+  },
+  {
+    symbolOriginalString: /ј/g,
+    symbolReplacementString: "j"
+  },
+  {
+    symbolOriginalString: /і/g,
+    symbolReplacementString: "i"
+  },
+  {
+    symbolOriginalString: /І/g,
+    symbolReplacementString: "I"
+  }
+];
 
 // Create a client with our options
 var client = new tmi.client(chatConfig);
@@ -4309,11 +4519,11 @@ async function onMessageHandler(target, tags, message, self) {
       //console.log("Test 99"),
       /((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*\s*((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // Best Viewers and Followers on StreamBoo .com (  u.to/yp_QIA )
       //console.log("Test 100"),
-      /((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Wed 2024-05-29T15:16:56Z]  <rickyboi999838893> Best viewers on cutt.ly/Pey3i71C // [Sat 2026-01-24T01:45:15Z]  <scaredpluralcse> @whataboutgaminglive Top viewers smmtop55.ru // [Mon 2026-02-02T16:37:15Z]  <contaminatedfirevecfyj> Viewers smmboost2.online  @axRCmIbO
+      /((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // 92 // [Wed 2024-05-29T15:16:56Z]  <rickyboi999838893> Best viewers on cutt.ly/Pey3i71C // [Sat 2026-01-24T01:45:15Z]  <scaredpluralcse> @whataboutgaminglive Top viewers smmtop55.ru // [Mon 2026-02-02T16:37:15Z]  <contaminatedfirevecfyj> Viewers smmboost2.online  @axRCmIbO
       //console.log("Test 101"),
       /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*\s*((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Mon 2024-06-10T19:14:03Z]  <fafixfan> Hiqh quality and Cheap Viewers on  u.to/vRi7IA
       //console.log("Test 102"),
-      /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Mon 2024-06-10T19:14:03Z]  <fafixfan> Hiqh quality and Cheap Viewers on  u.to/vRi7IA // [Sat 2026-01-24T01:45:15Z]  <scaredpluralcse> @whataboutgaminglive Top viewers smmtop55.ru // [Mon 2026-02-02T16:37:15Z]  <contaminatedfirevecfyj> Viewers smmboost2.online  @axRCmIbO
+      /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // 94 // [Mon 2024-06-10T19:14:03Z]  <fafixfan> Hiqh quality and Cheap Viewers on  u.to/vRi7IA // [Sat 2026-01-24T01:45:15Z]  <scaredpluralcse> @whataboutgaminglive Top viewers smmtop55.ru // [Mon 2026-02-02T16:37:15Z]  <contaminatedfirevecfyj> Viewers smmboost2.online  @axRCmIbO
       //console.log("Test 103"),
       /((r*e*m+o+v+e+)+|(n+o+)+)+\s*(\w*)\s*(s*p+a+c+e+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // Remove the space / No Space
       //console.log("Test 104"),
@@ -4342,7 +4552,8 @@ async function onMessageHandler(target, tags, message, self) {
       /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)+\s+((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*\s*((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)*\s*((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Tue 2026-08-25T00:41:43Z] <louvre_42> If you want to grow, add FORSEN_N on Discord and tell him WALEX sent you. He’s a massive streamer who helps people get real viewers and active chatters (Part 2 "real viewers and active chatters")
       /((h+i+[gq]+h+)+\s+(q+u+a+l+i+t+y+)\s*([\w\,]*)*\s*)*((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)+\s+((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Tue 2026-08-25T00:41:43Z] <louvre_42> If you want to grow, add FORSEN_N on Discord and tell him WALEX sent you. He’s a massive streamer who helps people get real viewers and active chatters (Part 3 "real viewers and" "active chatters")
       /((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)+\s+((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*\s*((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)*\s*((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Tue 2026-08-25T00:41:43Z] <louvre_42> If you want to grow, add FORSEN_N on Discord and tell him WALEX sent you. He’s a massive streamer who helps people get real viewers and active chatters (Part 4 "real viewers and active chatters")
-      /((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)+\s+((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*\s*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")) // [Tue 2026-08-25T00:41:43Z] <louvre_42> If you want to grow, add FORSEN_N on Discord and tell him WALEX sent you. He’s a massive streamer who helps people get real viewers and active chatters (Part 5 "real viewers and" "active chatters")
+      /((a+c+t+i+v+e+)+|(r+e+a+l+)+|(b+u+y+)+|(f+r+e+)+|(t+o+p+)+|(b+e+s+t+)+|(c+h+e+a+p+)+|(g+e+t+)+)+\s+((c+h+a+t+\w*)+|(v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*\s*/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")), // [Tue 2026-08-25T00:41:43Z] <louvre_42> If you want to grow, add FORSEN_N on Discord and tell him WALEX sent you. He’s a massive streamer who helps people get real viewers and active chatters (Part 5 "real viewers and" "active chatters")
+      /((v+i+e+w+\w*)+|(s+u+b+\w*)+|(f+[o0]+[li1\|]+[o0]+w+\w*)+)+\s*([\w\,]*)*(\s*((b+y+)+|(t+h+e+)+)+)*(\s+(s+t+r+[e*a*]*m+i*n*g*e*r*s*)+)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")) // [Fri 2026-10-30T23:57:34Z] <toxicxgamez> ᐯɪ𝖤ᗯ𝖤ᖇＳ 𝖮ᑎ 𝓣ᕼ𝗘 Ｓ𝕋ᖇＥᗩᗰ 𝕊𝗧ᖇ𝑬ᗩᗰ_ᑭᖇＯᗰ𝓞𝗧𝕀𝙾ᑎ 𝕕𝓸𝚝 𝑟𝓾
     ];
     let multiMessageSpamBotTypeA = [
       /((i+t+)+\s*(i+s+)|(i+t+\W*s+))+\s+(n+i+c+e+)+\s+(t+o+)+\s+(m+e+t+)+\s+(y+\w*)+\s+(\w+\W*v+e+)+\s+(w+a+t+c+h+e+d+)+\s+(y+\w*)+\s+([^\s]*)+\s+(t+w+\w*t+c+h+)\s+(c+h+a+n+e+l+\w*\W*)+/ig.test(replaceCyrillicsWithLatin.normalize("NFD").replace(/[\u007E-\uFFFF]+/ig, "")),
